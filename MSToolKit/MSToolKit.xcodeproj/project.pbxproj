@@ -13,6 +13,7 @@
 		82DF753122C4679800510F58 /* UIStackView+Replace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DF753022C4679800510F58 /* UIStackView+Replace.swift */; };
 		82DF753522C468D600510F58 /* String+Attributed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DF753422C468D600510F58 /* String+Attributed.swift */; };
 		82DF753722C4694E00510F58 /* UIAlertController+Default.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DF753622C4694E00510F58 /* UIAlertController+Default.swift */; };
+		82DF753922C4741100510F58 /* UILabel+Default.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DF753822C4741100510F58 /* UILabel+Default.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		82DF753022C4679800510F58 /* UIStackView+Replace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Replace.swift"; sourceTree = "<group>"; };
 		82DF753422C468D600510F58 /* String+Attributed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Attributed.swift"; sourceTree = "<group>"; };
 		82DF753622C4694E00510F58 /* UIAlertController+Default.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Default.swift"; sourceTree = "<group>"; };
+		82DF753822C4741100510F58 /* UILabel+Default.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Default.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				82DF752E22C4675900510F58 /* UIView+Multiple.swift */,
 				82DF753022C4679800510F58 /* UIStackView+Replace.swift */,
 				82DF753622C4694E00510F58 /* UIAlertController+Default.swift */,
+				82DF753822C4741100510F58 /* UILabel+Default.swift */,
 				82DF753422C468D600510F58 /* String+Attributed.swift */,
 				82DF750622C4647900510F58 /* MSToolKit.h */,
 				82DF750722C4647900510F58 /* Info.plist */,
@@ -150,6 +153,7 @@
 				82DF753722C4694E00510F58 /* UIAlertController+Default.swift in Sources */,
 				82DF752F22C4675900510F58 /* UIView+Multiple.swift in Sources */,
 				82DF750F22C4649E00510F58 /* UIView+Anchors.swift in Sources */,
+				82DF753922C4741100510F58 /* UILabel+Default.swift in Sources */,
 				82DF753122C4679800510F58 /* UIStackView+Replace.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,8 +8,12 @@
 
 import Foundation
 
+/// This extension simplifies the replacement of views in a stackview.
 public extension UIStackView {
 
+    /// This function replaces the subviews in a stackview.
+    ///
+    /// - Parameter with: array of views to replace the current stackview's arranged subviews with.
     public func replaceArrangedSubviews(with views: [UIView]) {
         arrangedSubviews.forEach {
             removeArrangedSubview($0)
