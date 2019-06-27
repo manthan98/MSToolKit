@@ -16,9 +16,7 @@ class ViewController: UIViewController {
         let redView = UIView()
         redView.backgroundColor = .red
         
-        let helloLabel = UILabel()
-        helloLabel.text = "Hello, World!"
-        helloLabel.font = UIFont.boldSystemFont(ofSize: 20)
+        let helloLabel = UILabel(text: "Hello, World!", textAlignment: .center, textColor: .purple)
         
         let helloButton = UIButton(type: .system)
         helloButton.setTitle("Hello", for: .normal)

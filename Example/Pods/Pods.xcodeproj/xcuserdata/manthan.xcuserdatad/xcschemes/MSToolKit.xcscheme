@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "38D4926724461CED8BEA7E65AAAD7EA8"
+               BlueprintIdentifier = "9BA7B7285106FF383CE792AA6B0677C4"
                BuildableName = "MSToolKit.framework"
                BlueprintName = "MSToolKit"
                ReferencedContainer = "container:Pods.xcodeproj">

@@ -1,5 +1,5 @@
 PODS:
-  - MSToolKit (1.0.0)
+  - MSToolKit (1.0.1)
 
 DEPENDENCIES:
   - MSToolKit (from `../MSToolKit/`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../MSToolKit/"
 
 SPEC CHECKSUMS:
-  MSToolKit: db15e4c2ef18eaebfc07372ab4a017c131e6d9c5
+  MSToolKit: 6dfa147c2861b1e8c21430cad0e46d46b73bed9d
 
 PODFILE CHECKSUM: abd852a88e020a2b03ea761406ed2bef7d0e50d4
 

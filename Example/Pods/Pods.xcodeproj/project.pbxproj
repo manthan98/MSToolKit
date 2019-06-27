@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		264EA7F61E7973439162173AD416DF65 /* MSToolKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3F9F95B47F547CFCDFF429CCDF6853 /* MSToolKit-dummy.m */; };
-		270DB33D95557297BE321709D97E9D82 /* UIView+Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23EED6B45BB0F34EC4C4A60F40F73EF /* UIView+Anchors.swift */; };
-		3AC1D6ECE57EFA80FEC35DF329C71426 /* UIView+Multiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2123A84AD3C4C2A8209802EF95412A /* UIView+Multiple.swift */; };
+		42F08D41DB90C623E290443EA6616E54 /* String+Attributed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203F3ED12C8BDDF78BE301FFD05F91AA /* String+Attributed.swift */; };
+		48BB1DA0FF14724BB0E5D9488DE90E24 /* MSToolKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A69F9E1F02F56126A5814DDBECF8E7 /* MSToolKit-dummy.m */; };
+		571530FF3364B9EF75FD6F26ADA952AB /* UIView+Multiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971E980FD2A8737331CC3D4029482492 /* UIView+Multiple.swift */; };
 		67A7D8C5DA13FCC66A624DADD24D1C47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		692BBB76BD72BD5E4A64882116DD9C52 /* MSToolKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CC92EBC8472E76671DD21A65C88962AB /* MSToolKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7B7AFF1B65CD67ED0AA3312D7FECD6EE /* String+Attributed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E905A4EDF6C1E5A019CC52B2F4561F /* String+Attributed.swift */; };
-		95D6C638B851C518B7118EA7DC3268EA /* UIStackView+Replace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0A338BB8F156748CC02C6988755698 /* UIStackView+Replace.swift */; };
-		B96E86493820E92CB2D650545C83AF82 /* UIAlertController+Default.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B658B898730239D840A3FB486F4E2DA /* UIAlertController+Default.swift */; };
-		BC17F148D9FA73AF9AFA2A29D6C7DF30 /* MSToolKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC7DDD6C17F2A040EA3327C2E0C3D99E /* MSToolKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72D024404EFB2A76E5EC2B7784D8A25F /* UIStackView+Replace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952678F8F9CD12833B126E123D56A892 /* UIStackView+Replace.swift */; };
+		7987E00DA057C460E71BE114FD08BD86 /* UIAlertController+Default.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408041A644DB4BC84B49FB664B6B3DF0 /* UIAlertController+Default.swift */; };
+		918A94BA9E621B20DDE42440D95C1D5B /* UIView+Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E76F90E60033636A93F4C52406B59F /* UIView+Anchors.swift */; };
+		A17E2AF4E9BABA96D6D147389DA70279 /* MSToolKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 882018FE10B1C57DD64F37F76EF2C75C /* MSToolKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFFA42409F1064B13395A7FDB7D5E7E6 /* MSToolKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F9F8FA5C24308A18ED79D4A08D9233B /* MSToolKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C3CFDE75F9C0594A65A60B8501528EBC /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76ACFBF7097B199449E8749F7EE01465 /* Pods-Example-dummy.m */; };
-		E0683DA8705E20256BF747097E6CB714 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		C524F8070F90E0BBAB7DAFB4149CE9DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		D964BD52B1B409431E88934808751D15 /* UILabel+Default.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B74DAB36FD95C9661C8094DAB592FC /* UILabel+Default.swift */; };
 		F1EEFACF927BD82563D8E2547F7D6F7F /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96575DA5A33E3BA4F12184BFE42BAD90 /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -26,38 +27,39 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 38D4926724461CED8BEA7E65AAAD7EA8;
+			remoteGlobalIDString = 9BA7B7285106FF383CE792AA6B0677C4;
 			remoteInfo = MSToolKit;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00977367FE10B9DF0B0B58D3AB11BB18 /* MSToolKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MSToolKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		09D8BEBAD1792D92B276F7D05B745220 /* MSToolKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSToolKit-prefix.pch"; sourceTree = "<group>"; };
-		0B658B898730239D840A3FB486F4E2DA /* UIAlertController+Default.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIAlertController+Default.swift"; path = "MSToolKit/UIAlertController+Default.swift"; sourceTree = "<group>"; };
+		051E75083DE7F278A3FE3ADBFA7DD3E6 /* MSToolKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MSToolKit-Info.plist"; sourceTree = "<group>"; };
 		0D7670157C7D120B0D5E584600E00029 /* Pods-Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-Info.plist"; sourceTree = "<group>"; };
+		203F3ED12C8BDDF78BE301FFD05F91AA /* String+Attributed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Attributed.swift"; path = "MSToolKit/String+Attributed.swift"; sourceTree = "<group>"; };
 		2C162FC21D423A87FC143A0B632CFC08 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
+		300B3F13326B812E7CA4FA3B648CABB5 /* MSToolKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MSToolKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		35E2C288A180219D12F161F8F67849E8 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		37E905A4EDF6C1E5A019CC52B2F4561F /* String+Attributed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Attributed.swift"; path = "MSToolKit/String+Attributed.swift"; sourceTree = "<group>"; };
+		36C69F7721450A072DEBC81BD12F6B14 /* MSToolKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MSToolKit.modulemap; sourceTree = "<group>"; };
+		408041A644DB4BC84B49FB664B6B3DF0 /* UIAlertController+Default.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIAlertController+Default.swift"; path = "MSToolKit/UIAlertController+Default.swift"; sourceTree = "<group>"; };
 		415F61F11BD564043CA80AC49145E3C2 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 		43304266A7DD909AC0E4DD8B760803D5 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Example.framework; path = "Pods-Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		43CF26C036A9F6FCA40F3D94AB95A897 /* MSToolKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MSToolKit.modulemap; sourceTree = "<group>"; };
 		55D3ADE233900B5C67CEBDDED9DCECCC /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		5753A4EABAEB1ACB8CA77A294274078C /* MSToolKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MSToolKit.framework; path = MSToolKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B0A338BB8F156748CC02C6988755698 /* UIStackView+Replace.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStackView+Replace.swift"; path = "MSToolKit/UIStackView+Replace.swift"; sourceTree = "<group>"; };
-		5D82E1424877D957AC32F4683821513C /* MSToolKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSToolKit.xcconfig; sourceTree = "<group>"; };
-		6E2123A84AD3C4C2A8209802EF95412A /* UIView+Multiple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Multiple.swift"; path = "MSToolKit/UIView+Multiple.swift"; sourceTree = "<group>"; };
+		67E76F90E60033636A93F4C52406B59F /* UIView+Anchors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Anchors.swift"; path = "MSToolKit/UIView+Anchors.swift"; sourceTree = "<group>"; };
 		76ACFBF7097B199449E8749F7EE01465 /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
-		7E3F9F95B47F547CFCDFF429CCDF6853 /* MSToolKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MSToolKit-dummy.m"; sourceTree = "<group>"; };
+		87B74DAB36FD95C9661C8094DAB592FC /* UILabel+Default.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILabel+Default.swift"; path = "MSToolKit/UILabel+Default.swift"; sourceTree = "<group>"; };
+		882018FE10B1C57DD64F37F76EF2C75C /* MSToolKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSToolKit.h; path = MSToolKit/MSToolKit.h; sourceTree = "<group>"; };
+		8F9F8FA5C24308A18ED79D4A08D9233B /* MSToolKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSToolKit-umbrella.h"; sourceTree = "<group>"; };
+		952678F8F9CD12833B126E123D56A892 /* UIStackView+Replace.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStackView+Replace.swift"; path = "MSToolKit/UIStackView+Replace.swift"; sourceTree = "<group>"; };
 		96575DA5A33E3BA4F12184BFE42BAD90 /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
+		971E980FD2A8737331CC3D4029482492 /* UIView+Multiple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Multiple.swift"; path = "MSToolKit/UIView+Multiple.swift"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6A69F9E1F02F56126A5814DDBECF8E7 /* MSToolKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MSToolKit-dummy.m"; sourceTree = "<group>"; };
+		A8FE83881DD303F328FADC18E384E14C /* MSToolKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSToolKit-prefix.pch"; sourceTree = "<group>"; };
 		ADD0587B37B52C1E8ECBBA43CF7761CB /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B23EED6B45BB0F34EC4C4A60F40F73EF /* UIView+Anchors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Anchors.swift"; path = "MSToolKit/UIView+Anchors.swift"; sourceTree = "<group>"; };
-		BC7DDD6C17F2A040EA3327C2E0C3D99E /* MSToolKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSToolKit-umbrella.h"; sourceTree = "<group>"; };
 		C743D3A5AB93A727EA1A577CE93AF024 /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CC92EBC8472E76671DD21A65C88962AB /* MSToolKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSToolKit.h; path = MSToolKit/MSToolKit.h; sourceTree = "<group>"; };
-		F1B8BEB5AE1407C5483E28695EBAFCAE /* MSToolKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MSToolKit-Info.plist"; sourceTree = "<group>"; };
+		D1CB0674DE5BF54A128C197046A66192 /* MSToolKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSToolKit.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,11 +71,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		32FE3FAC86917F406449F66F68843C31 /* Frameworks */ = {
+		97BB8B9FF244C8F9ADDDFC8D9C65480E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0683DA8705E20256BF747097E6CB714 /* Foundation.framework in Frameworks */,
+				C524F8070F90E0BBAB7DAFB4149CE9DA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,12 +91,34 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3E52A0F8F597D48C1AC953527AF1BA5D /* Pod */ = {
+		752ECFDC81A403A2C872115F87D1DB88 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				00977367FE10B9DF0B0B58D3AB11BB18 /* MSToolKit.podspec */,
+				300B3F13326B812E7CA4FA3B648CABB5 /* MSToolKit.podspec */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		753EADC14BFE04930D4DE4A5DBB1A39E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				36C69F7721450A072DEBC81BD12F6B14 /* MSToolKit.modulemap */,
+				D1CB0674DE5BF54A128C197046A66192 /* MSToolKit.xcconfig */,
+				A6A69F9E1F02F56126A5814DDBECF8E7 /* MSToolKit-dummy.m */,
+				051E75083DE7F278A3FE3ADBFA7DD3E6 /* MSToolKit-Info.plist */,
+				A8FE83881DD303F328FADC18E384E14C /* MSToolKit-prefix.pch */,
+				8F9F8FA5C24308A18ED79D4A08D9233B /* MSToolKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Example/Pods/Target Support Files/MSToolKit";
+			sourceTree = "<group>";
+		};
+		76023443AE6FF92B4BB21CA28A424F23 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB301B54FD8A5E0B72C5046B4C9DC3A6 /* MSToolKit */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
@@ -105,18 +129,21 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		9B4BB774746355767A1A6CE5C6B98797 /* Support Files */ = {
+		BB301B54FD8A5E0B72C5046B4C9DC3A6 /* MSToolKit */ = {
 			isa = PBXGroup;
 			children = (
-				43CF26C036A9F6FCA40F3D94AB95A897 /* MSToolKit.modulemap */,
-				5D82E1424877D957AC32F4683821513C /* MSToolKit.xcconfig */,
-				7E3F9F95B47F547CFCDFF429CCDF6853 /* MSToolKit-dummy.m */,
-				F1B8BEB5AE1407C5483E28695EBAFCAE /* MSToolKit-Info.plist */,
-				09D8BEBAD1792D92B276F7D05B745220 /* MSToolKit-prefix.pch */,
-				BC7DDD6C17F2A040EA3327C2E0C3D99E /* MSToolKit-umbrella.h */,
+				882018FE10B1C57DD64F37F76EF2C75C /* MSToolKit.h */,
+				203F3ED12C8BDDF78BE301FFD05F91AA /* String+Attributed.swift */,
+				408041A644DB4BC84B49FB664B6B3DF0 /* UIAlertController+Default.swift */,
+				87B74DAB36FD95C9661C8094DAB592FC /* UILabel+Default.swift */,
+				952678F8F9CD12833B126E123D56A892 /* UIStackView+Replace.swift */,
+				67E76F90E60033636A93F4C52406B59F /* UIView+Anchors.swift */,
+				971E980FD2A8737331CC3D4029482492 /* UIView+Multiple.swift */,
+				752ECFDC81A403A2C872115F87D1DB88 /* Pod */,
+				753EADC14BFE04930D4DE4A5DBB1A39E /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Example/Pods/Target Support Files/MSToolKit";
+			name = MSToolKit;
+			path = ../../MSToolKit;
 			sourceTree = "<group>";
 		};
 		CE2E825F08D3AD0FD76E6D78D7512ED0 /* Targets Support Files */ = {
@@ -131,27 +158,11 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D22F90ABD9C3675420B1B93E2B8A5DFF /* Development Pods */,
+				76023443AE6FF92B4BB21CA28A424F23 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				2809BB16A6BCCD2B0A7250D0A1C8F85E /* Products */,
 				CE2E825F08D3AD0FD76E6D78D7512ED0 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D0164200440A879F6FE57619A50B585C /* MSToolKit */ = {
-			isa = PBXGroup;
-			children = (
-				CC92EBC8472E76671DD21A65C88962AB /* MSToolKit.h */,
-				37E905A4EDF6C1E5A019CC52B2F4561F /* String+Attributed.swift */,
-				0B658B898730239D840A3FB486F4E2DA /* UIAlertController+Default.swift */,
-				5B0A338BB8F156748CC02C6988755698 /* UIStackView+Replace.swift */,
-				B23EED6B45BB0F34EC4C4A60F40F73EF /* UIView+Anchors.swift */,
-				6E2123A84AD3C4C2A8209802EF95412A /* UIView+Multiple.swift */,
-				3E52A0F8F597D48C1AC953527AF1BA5D /* Pod */,
-				9B4BB774746355767A1A6CE5C6B98797 /* Support Files */,
-			);
-			name = MSToolKit;
-			path = ../../MSToolKit;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -160,14 +171,6 @@
 				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D22F90ABD9C3675420B1B93E2B8A5DFF /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D0164200440A879F6FE57619A50B585C /* MSToolKit */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		F9A708936E99FD7F473C57BA21F7279D /* Pods-Example */ = {
@@ -190,12 +193,12 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		BD561A8E6A781527866F96E8B0AC10DA /* Headers */ = {
+		ACFB0D766DAE00DA606968AE6EB2B645 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC17F148D9FA73AF9AFA2A29D6C7DF30 /* MSToolKit-umbrella.h in Headers */,
-				692BBB76BD72BD5E4A64882116DD9C52 /* MSToolKit.h in Headers */,
+				BFFA42409F1064B13395A7FDB7D5E7E6 /* MSToolKit-umbrella.h in Headers */,
+				A17E2AF4E9BABA96D6D147389DA70279 /* MSToolKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,24 +213,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		38D4926724461CED8BEA7E65AAAD7EA8 /* MSToolKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 80C6B78DCF0F543BAD9E161352B39B01 /* Build configuration list for PBXNativeTarget "MSToolKit" */;
-			buildPhases = (
-				BD561A8E6A781527866F96E8B0AC10DA /* Headers */,
-				6FFD1F8936C347DD674D151A9C832E3E /* Sources */,
-				32FE3FAC86917F406449F66F68843C31 /* Frameworks */,
-				546841C6319A994DA5D88B7EF69E9996 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MSToolKit;
-			productName = MSToolKit;
-			productReference = 5753A4EABAEB1ACB8CA77A294274078C /* MSToolKit.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		83DBD22F6EBD9C84AC311D983ED589B5 /* Pods-Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 886F831D15C79D9203F04E3D0A5470A7 /* Build configuration list for PBXNativeTarget "Pods-Example" */;
@@ -245,6 +230,24 @@
 			name = "Pods-Example";
 			productName = "Pods-Example";
 			productReference = 43304266A7DD909AC0E4DD8B760803D5 /* Pods_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9BA7B7285106FF383CE792AA6B0677C4 /* MSToolKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F514D45A80970B6F0273D9FA8BFD5FF /* Build configuration list for PBXNativeTarget "MSToolKit" */;
+			buildPhases = (
+				ACFB0D766DAE00DA606968AE6EB2B645 /* Headers */,
+				657E71A36596E7BA86EA33502517D2B7 /* Sources */,
+				97BB8B9FF244C8F9ADDDFC8D9C65480E /* Frameworks */,
+				68678F0ABFFAB77160D925524C74770C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MSToolKit;
+			productName = MSToolKit;
+			productReference = 5753A4EABAEB1ACB8CA77A294274078C /* MSToolKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -268,14 +271,14 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				38D4926724461CED8BEA7E65AAAD7EA8 /* MSToolKit */,
+				9BA7B7285106FF383CE792AA6B0677C4 /* MSToolKit */,
 				83DBD22F6EBD9C84AC311D983ED589B5 /* Pods-Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		546841C6319A994DA5D88B7EF69E9996 /* Resources */ = {
+		68678F0ABFFAB77160D925524C74770C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -300,16 +303,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6FFD1F8936C347DD674D151A9C832E3E /* Sources */ = {
+		657E71A36596E7BA86EA33502517D2B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				264EA7F61E7973439162173AD416DF65 /* MSToolKit-dummy.m in Sources */,
-				7B7AFF1B65CD67ED0AA3312D7FECD6EE /* String+Attributed.swift in Sources */,
-				B96E86493820E92CB2D650545C83AF82 /* UIAlertController+Default.swift in Sources */,
-				95D6C638B851C518B7118EA7DC3268EA /* UIStackView+Replace.swift in Sources */,
-				270DB33D95557297BE321709D97E9D82 /* UIView+Anchors.swift in Sources */,
-				3AC1D6ECE57EFA80FEC35DF329C71426 /* UIView+Multiple.swift in Sources */,
+				48BB1DA0FF14724BB0E5D9488DE90E24 /* MSToolKit-dummy.m in Sources */,
+				42F08D41DB90C623E290443EA6616E54 /* String+Attributed.swift in Sources */,
+				7987E00DA057C460E71BE114FD08BD86 /* UIAlertController+Default.swift in Sources */,
+				D964BD52B1B409431E88934808751D15 /* UILabel+Default.swift in Sources */,
+				72D024404EFB2A76E5EC2B7784D8A25F /* UIStackView+Replace.swift in Sources */,
+				918A94BA9E621B20DDE42440D95C1D5B /* UIView+Anchors.swift in Sources */,
+				571530FF3364B9EF75FD6F26ADA952AB /* UIView+Multiple.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,7 +323,7 @@
 		B2C4940DE8B4205FFE51AAB1BA71F4B3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MSToolKit;
-			target = 38D4926724461CED8BEA7E65AAAD7EA8 /* MSToolKit */;
+			target = 9BA7B7285106FF383CE792AA6B0677C4 /* MSToolKit */;
 			targetProxy = D913D3FCD886DF783557231A9A07BE0E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -402,9 +406,9 @@
 			};
 			name = Release;
 		};
-		7D44781B95ED1C6F365433B192EBF81A /* Debug */ = {
+		604265311EDD808C70CB314E6B90129F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D82E1424877D957AC32F4683821513C /* MSToolKit.xcconfig */;
+			baseConfigurationReference = D1CB0674DE5BF54A128C197046A66192 /* MSToolKit.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -433,10 +437,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		A105C1752A0A49B30ED621B71E226CDB /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -497,6 +502,42 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		BE8D77C61EAE571C35FAFFABABD10B6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1CB0674DE5BF54A128C197046A66192 /* MSToolKit.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MSToolKit/MSToolKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MSToolKit/MSToolKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MSToolKit/MSToolKit.modulemap";
+				PRODUCT_MODULE_NAME = MSToolKit;
+				PRODUCT_NAME = MSToolKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		C1391485F05B41BD35738A433056B7FA /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -562,43 +603,6 @@
 			};
 			name = Debug;
 		};
-		F83798F1D8B2C18363C4B36EBFA8A947 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D82E1424877D957AC32F4683821513C /* MSToolKit.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MSToolKit/MSToolKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MSToolKit/MSToolKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/MSToolKit/MSToolKit.modulemap";
-				PRODUCT_MODULE_NAME = MSToolKit;
-				PRODUCT_NAME = MSToolKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -611,11 +615,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80C6B78DCF0F543BAD9E161352B39B01 /* Build configuration list for PBXNativeTarget "MSToolKit" */ = {
+		7F514D45A80970B6F0273D9FA8BFD5FF /* Build configuration list for PBXNativeTarget "MSToolKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7D44781B95ED1C6F365433B192EBF81A /* Debug */,
-				F83798F1D8B2C18363C4B36EBFA8A947 /* Release */,
+				BE8D77C61EAE571C35FAFFABABD10B6A /* Debug */,
+				604265311EDD808C70CB314E6B90129F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
