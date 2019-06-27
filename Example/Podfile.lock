@@ -1,0 +1,16 @@
+PODS:
+  - MSToolKit (1.0.0)
+
+DEPENDENCIES:
+  - MSToolKit (from `../MSToolKit/`)
+
+EXTERNAL SOURCES:
+  MSToolKit:
+    :path: "../MSToolKit/"
+
+SPEC CHECKSUMS:
+  MSToolKit: db15e4c2ef18eaebfc07372ab4a017c131e6d9c5
+
+PODFILE CHECKSUM: abd852a88e020a2b03ea761406ed2bef7d0e50d4
+
+COCOAPODS: 1.6.1

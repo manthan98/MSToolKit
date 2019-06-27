@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		82DF750822C4647900510F58 /* MSToolKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 82DF750622C4647900510F58 /* MSToolKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		82DF750F22C4649E00510F58 /* UIView+Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DF750E22C4649E00510F58 /* UIView+Anchors.swift */; };
+		82DF752F22C4675900510F58 /* UIView+Multiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DF752E22C4675900510F58 /* UIView+Multiple.swift */; };
+		82DF753122C4679800510F58 /* UIStackView+Replace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DF753022C4679800510F58 /* UIStackView+Replace.swift */; };
+		82DF753522C468D600510F58 /* String+Attributed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DF753422C468D600510F58 /* String+Attributed.swift */; };
+		82DF753722C4694E00510F58 /* UIAlertController+Default.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DF753622C4694E00510F58 /* UIAlertController+Default.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +20,10 @@
 		82DF750622C4647900510F58 /* MSToolKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSToolKit.h; sourceTree = "<group>"; };
 		82DF750722C4647900510F58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82DF750E22C4649E00510F58 /* UIView+Anchors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Anchors.swift"; sourceTree = "<group>"; };
+		82DF752E22C4675900510F58 /* UIView+Multiple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Multiple.swift"; sourceTree = "<group>"; };
+		82DF753022C4679800510F58 /* UIStackView+Replace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Replace.swift"; sourceTree = "<group>"; };
+		82DF753422C468D600510F58 /* String+Attributed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Attributed.swift"; sourceTree = "<group>"; };
+		82DF753622C4694E00510F58 /* UIAlertController+Default.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Default.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,9 +56,13 @@
 		82DF750522C4647900510F58 /* MSToolKit */ = {
 			isa = PBXGroup;
 			children = (
+				82DF750E22C4649E00510F58 /* UIView+Anchors.swift */,
+				82DF752E22C4675900510F58 /* UIView+Multiple.swift */,
+				82DF753022C4679800510F58 /* UIStackView+Replace.swift */,
+				82DF753622C4694E00510F58 /* UIAlertController+Default.swift */,
+				82DF753422C468D600510F58 /* String+Attributed.swift */,
 				82DF750622C4647900510F58 /* MSToolKit.h */,
 				82DF750722C4647900510F58 /* Info.plist */,
-				82DF750E22C4649E00510F58 /* UIView+Anchors.swift */,
 			);
 			path = MSToolKit;
 			sourceTree = "<group>";
@@ -134,7 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82DF753522C468D600510F58 /* String+Attributed.swift in Sources */,
+				82DF753722C4694E00510F58 /* UIAlertController+Default.swift in Sources */,
+				82DF752F22C4675900510F58 /* UIView+Multiple.swift in Sources */,
 				82DF750F22C4649E00510F58 /* UIView+Anchors.swift in Sources */,
+				82DF753122C4679800510F58 /* UIStackView+Replace.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

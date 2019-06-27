@@ -1,0 +1,6 @@
+framework module MSToolKit {
+  umbrella header "MSToolKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
