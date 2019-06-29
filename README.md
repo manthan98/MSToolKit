@@ -63,7 +63,7 @@ redView.anchor(top: testView.topAnchor,
 
 By specifying nil, the constraint to that particular layout anchor will be ignored. It is also possible to specify fixed size and height parameter through an additional size parameter of type `CGSize` on the `anchor(...)` function. Explore the example project for more details.
 
-## Multiple Views
+### Multiple Views
 
 Adding subviews to a view can become a repetitive process and requires making the same `addSubview(...)` call multiple times. The `addSubviews(...)` function simplifies this by allowing multiple views to be passed in at once.
 
@@ -71,7 +71,7 @@ Adding subviews to a view can become a repetitive process and requires making th
 view.addSubviews(redView, blueView, greenView)
 ```
 
-## Stack View Replacements
+### Stack View Replacements
 
 Sometimes the need to manipulate views inside a pre-existing stack view might arise. There is no go-to function call offered by `UIKit` that helps accomplish. Simple call `replaceArrangedSubviews(...)` on an existing stack view object where the parameters are the new set of desired views.
 
@@ -79,14 +79,35 @@ Sometimes the need to manipulate views inside a pre-existing stack view might ar
 stackView.replaceArrangedSubviews(with: redView, blueView)
 ```
 
-## Default Alert Controller
+### Default Alert Controller
 
-TODO.
+The process of creating an `UIAlertController` can involve quite a bit of boilerplate code. Simply use the convenience initializer provided by this library to setup various common components of the alert controller in one line:
 
-## Default Label
+```
+let alertController = UIAlertController(title: "Hello",
+                                        message: "This CocoaPod is awesome!",
+                                        preferredStyle: .alert,
+                                        actionTitle: "Ok",
+                                        actionStyle: .default)
+```
 
-TODO.
+### Default Label
 
-## Partial String Colour
+The process of creating an `UILabel` can involve quite a bit of boilerplate code. Simply use the convenience initializer provided by this library to setup various components of the label in one line:
 
-TODO.
+```
+let label = UILabel(text: "Hello, World!", 
+                    textAlignment: .center, 
+                    textColor: .purple, 
+                    font: UIFont.systemFont(ofSize: 20))
+```
+
+### Partial String Colour
+
+It is sometimes desirable to have strings that are partially colored for use as attributed text. Simply call the `attributedStringForPartiallyColoredText` to achieve this functionality:
+
+```
+let label = UILabel()
+let str = "Hello, World!".attributedStringForPartiallyColoredText("Hello", with: .blue)
+label.attributedText = str
+```
